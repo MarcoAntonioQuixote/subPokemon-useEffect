@@ -1,16 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App-header {
@@ -24,15 +18,109 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: solid white 2px;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokeCage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.normal {
+  background-color: #A8A878;
+  color: #fff;
+}
+
+.fire {
+  background-color: #F08030;
+  color: #fff;
+}
+
+.water {
+  background-color: #6890F0;
+  color: #fff;
+}
+
+.electric {
+  background-color: #F8D030;
+  color: #fff;
+}
+
+.grass {
+  background-color: #78C850;
+  color: #fff;
+}
+
+.ice {
+  background-color: #98D8D8;
+  color: #000;
+}
+
+.fighting {
+  background-color: #C03028;
+  color: #fff;
+}
+
+.poison {
+  background-color: #A040A0;
+  color: #fff;
+}
+
+.ground {
+  background-color: #E0C068;
+  color: #fff;
+}
+
+.flying {
+  background-color: #A890F0;
+  color: #fff;
+}
+
+.psychic {
+  background-color: #F85888;
+  color: #fff;
+}
+
+.bug {
+  background-color: #A8B820;
+  color: #fff;
+}
+
+.rock {
+  background-color: #B8A038;
+  color: #fff;
+}
+
+.ghost {
+  background-color: #705898;
+  color: #fff;
+}
+
+.dragon {
+  background-color: #7038F8;
+  color: #fff;
+}
+
+.dark {
+  background-color: #705848;
+  color: #fff;
+}
+
+.steel {
+  background-color: #B8B8D0;
+  color: #000;
+}
+
+.fairy {
+  background-color: #EE99AC;
+  color: #000;
 }
